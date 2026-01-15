@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "ISIC_3386852",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7958109",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1424951",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_2923050",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1264034",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8186630",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_6174823",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_3945933",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma",
+    "diagnosis_detail": "Benign soft tissue proliferations - Fibro-histiocytic"
+  },
+  {
+    "id": "ISIC_0798109",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_7188142",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_0949430",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9810739",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3318576",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_7045012",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6583732",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_9845346",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_9693907",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_1435734",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5129541",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_5456265",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8111688",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_0149062",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_7170025",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8244439",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4529113",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_4303207",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8118009",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_6600474",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2892335",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0391153",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9317486",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_4040199",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6077125",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1377073",
+    "is_melanoma": false,
+    "diagnosis": "Infundibular or epidermal cyst",
+    "category": "other_misc",
+    "diagnosis_detail": "Cysts"
+  },
+  {
+    "id": "ISIC_7447177",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5696393",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8257972",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3418096",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma",
+    "diagnosis_detail": "Benign soft tissue proliferations - Fibro-histiocytic"
+  },
+  {
+    "id": "ISIC_3667052",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1715773",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_8261347",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8002362",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_9183026",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2415211",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_8906358",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_3210975",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8635734",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5138441",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_6677597",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1909868",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_0402893",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8945633",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_1037712",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7621482",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_3623141",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4444976",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4993836",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3368269",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_9355799",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6046943",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7475014",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8010616",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1653953",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8350851",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7267324",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6958882",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_7789436",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_4299958",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2181342",
+    "is_melanoma": false,
+    "diagnosis": "Pyogenic granuloma",
+    "category": "other_misc",
+    "diagnosis_detail": "Benign soft tissue proliferations - Vascular"
+  },
+  {
+    "id": "ISIC_6625361",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_1597370",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4267147",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8966831",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_9018538",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_7243320",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0543368",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_4311112",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3164080",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9174580",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5080331",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8877039",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_4945500",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5093839",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7136010",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4868603",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6738908",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_1224887",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9561756",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9940495",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2205187",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_5629148",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8893011",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6698671",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2891861",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1832787",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4430642",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2949444",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_7982662",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2900527",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_5157495",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3057675",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6874595",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_6790517",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_6291927",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_2513521",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4742339",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1327102",
+    "is_melanoma": false,
+    "diagnosis": "Angiokeratoma",
+    "category": "other_misc",
+    "diagnosis_detail": "Benign soft tissue proliferations - Vascular"
+  },
+  {
+    "id": "ISIC_0853298",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2343149",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2085484",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_2886495",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4098601",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_7188767",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6167082",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_5018607",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9250861",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6573003",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3360186",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_7044118",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8533186",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4025658",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0553265",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3982759",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2397388",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9276896",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1157338",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0443245",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_2106983",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_2525497",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_5665189",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_7138580",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_0303886",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9818689",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2753382",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8322623",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8165089",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_8063764",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_3045477",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5358212",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_1753599",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8349783",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2459161",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1066863",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4218751",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1649393",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4203842",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_8124386",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0084958",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7885691",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5261867",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9488743",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2453345",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_7334939",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2893311",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6543284",
+    "is_melanoma": false,
+    "diagnosis": "Collision - At least one malignant proliferation",
+    "category": "other_misc",
+    "diagnosis_detail": "Collision - At least one malignant proliferation"
+  },
+  {
+    "id": "ISIC_5836006",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1126401",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_0192391",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4493203",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2134793",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_8740405",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9357735",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5239106",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_9115886",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3102873",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_6508737",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4949237",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_3428486",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8367579",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5151650",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1492834",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_1075770",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9871721",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_0938645",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4120065",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_4256719",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5933489",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6755281",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_2959395",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6550385",
+    "is_melanoma": false,
+    "diagnosis": "Angiokeratoma",
+    "category": "other_misc",
+    "diagnosis_detail": "Benign soft tissue proliferations - Vascular"
+  },
+  {
+    "id": "ISIC_5807024",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3456765",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4892815",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_5960820",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_4426174",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4520562",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8525569",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1389612",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2252587",
+    "is_melanoma": false,
+    "diagnosis": "Inflammatory or infectious diseases",
+    "category": "other_misc",
+    "diagnosis_detail": "Inflammatory or infectious diseases"
+  },
+  {
+    "id": "ISIC_1403022",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_3905888",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5228122",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma",
+    "diagnosis_detail": "Benign soft tissue proliferations - Fibro-histiocytic"
+  },
+  {
+    "id": "ISIC_9290704",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4140786",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_5253746",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6428132",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6558065",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_8810193",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4638443",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1888829",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_9562167",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9227283",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3317643",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2668215",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_0490330",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_8133362",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0583712",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6372109",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6294166",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_2837403",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5512440",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_1915189",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9025095",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_8771667",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5212488",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_2313224",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_7964186",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_3906512",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_7675736",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2120680",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5913482",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4370676",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_1598799",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7828218",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5068413",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_0745250",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5230169",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9046790",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5678929",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2284196",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5376495",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1860202",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2926621",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3034620",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1580971",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3020708",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_6803790",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5176734",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3830454",
+    "is_melanoma": false,
+    "diagnosis": "Inflammatory or infectious diseases",
+    "category": "other_misc",
+    "diagnosis_detail": "Inflammatory or infectious diseases"
+  },
+  {
+    "id": "ISIC_9807754",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_3061267",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_0991616",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_7096753",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2016658",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7035620",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_0807573",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc",
+    "diagnosis_detail": "Indeterminate epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2427847",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma",
+    "diagnosis_detail": "Benign soft tissue proliferations - Fibro-histiocytic"
+  },
+  {
+    "id": "ISIC_6365981",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1982635",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5315833",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_0573471",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_0742972",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5688654",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_8816308",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4793606",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5866836",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4932799",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1503289",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6222224",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_2122841",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_7695480",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_0931470",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_4320592",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_5612498",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_5831158",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_1721507",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_6290373",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_9488866",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_9725159",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_5390171",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma",
+    "diagnosis_detail": "Benign soft tissue proliferations - Fibro-histiocytic"
+  },
+  {
+    "id": "ISIC_3486312",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2611469",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9187182",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_5476166",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9599992",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2683683",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_0217198",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_4513123",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_7268085",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_3601357",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_6810372",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_9718756",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_3242637",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0583409",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_8453550",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_3932303",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3520227",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1706772",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_0584164",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc",
+    "diagnosis_detail": "Malignant adnexal epithelial proliferations - Follicular"
+  },
+  {
+    "id": "ISIC_0686429",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_6888436",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1624532",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_9239381",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo",
+    "diagnosis_detail": "Benign epidermal proliferations"
+  },
+  {
+    "id": "ISIC_1850255",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_2361193",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus",
+    "diagnosis_detail": "Benign melanocytic proliferations"
+  },
+  {
+    "id": "ISIC_3642584",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_4103339",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_4469657",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma",
+    "diagnosis_detail": "Malignant epidermal proliferations"
+  },
+  {
+    "id": "ISIC_0583040",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  },
+  {
+    "id": "ISIC_1916169",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ",
+    "diagnosis_detail": "Malignant melanocytic proliferations (Melanoma)"
+  }
+]

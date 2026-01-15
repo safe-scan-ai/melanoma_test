@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIN SCAN - Melanoma Detection Study</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #f76246;
+            --primary-dark: #d94e35;
+            --primary-light: #ff8a70;
+            --bg-primary: #0d0d0d;
+            --bg-secondary: #1a1a1a;
+            --bg-card: #242424;
+            --accent-green: #4ade80;
+            --accent-red: #f87171;
+            --accent-yellow: #fbbf24;
+            --text-primary: #ffffff;
+            --text-secondary: #a3a3a3;
+            --border-color: #3d3d3d;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: 
+                radial-gradient(circle at 30% 20%, rgba(247, 98, 70, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(247, 98, 70, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            width: 36px; height: 36px;
+            background: var(--primary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .user-badge {
+            background: var(--bg-card);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+
+        .screen { display: none; }
+        .screen.active { display: block; }
+
+        .welcome-screen {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .welcome-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 3rem;
+            max-width: 550px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+        }
+
+        .welcome-logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+
+        .welcome-subtitle {
+            color: var(--text-secondary);
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+
+        .input-group { margin-bottom: 1.5rem; }
+        .input-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+        .input-label { display: block; text-align: left; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.9rem; color: var(--text-secondary); }
+
+        .input-field {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-family: inherit;
+            transition: all 0.3s ease;
+        }
+
+        .input-field:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 20px rgba(247, 98, 70, 0.2); }
+        select.input-field { cursor: pointer; }
+
+        .consent-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .consent-box label {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .consent-box input[type="checkbox"] { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--primary); }
+
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .btn-primary:hover:not(:disabled) { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 10px 30px rgba(247, 98, 70, 0.3); }
+        .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+        .stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.25rem;
+            text-align: center;
+        }
+
+        .stat-value { font-family: 'Space Mono', monospace; font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .stat-value.correct { color: var(--accent-green); }
+        .stat-value.incorrect { color: var(--accent-red); }
+        .stat-label { font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem; }
+
+        .quiz-layout { display: grid; grid-template-columns: 1fr 360px; gap: 2rem; }
+        @media (max-width: 1024px) { .quiz-layout { grid-template-columns: 1fr; } }
+
+        .image-panel {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            overflow: hidden;
+        }
+
+        .image-header {
+            padding: 1rem 1.5rem;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .image-id { font-family: 'Space Mono', monospace; font-size: 0.85rem; color: var(--primary); }
+
+        .case-badge {
+            font-size: 0.8rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 12px;
+            background: var(--primary);
+            color: white;
+            font-weight: 600;
+        }
+
+        .image-container {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            position: relative;
+        }
+
+        .image-container img { max-width: 100%; max-height: 100%; object-fit: contain; }
+        .image-loading { color: var(--text-secondary); font-size: 1.2rem; }
+        .image-error { color: var(--accent-red); text-align: center; padding: 2rem; }
+
+        .control-panel { display: flex; flex-direction: column; gap: 1.5rem; }
+
+        .timer-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .timer-label { font-size: 0.85rem; color: var(--text-secondary); }
+        .timer-value { font-family: 'Space Mono', monospace; font-size: 1.25rem; font-weight: 700; color: var(--primary); }
+
+        .answer-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.5rem;
+        }
+
+        .answer-section h3 {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .answer-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+        .answer-btn {
+            padding: 1.5rem 1rem;
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .answer-btn:hover:not(:disabled) { border-color: var(--accent-green); background: rgba(74, 222, 128, 0.1); }
+        .answer-btn.selected { border-color: var(--accent-green); background: rgba(74, 222, 128, 0.15); }
+        .answer-btn.melanoma:hover:not(:disabled) { border-color: var(--primary); background: rgba(247, 98, 70, 0.1); }
+        .answer-btn.melanoma.selected { border-color: var(--primary); background: rgba(247, 98, 70, 0.15); }
+        .answer-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        .feedback {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 12px;
+            font-weight: 500;
+            display: none;
+        }
+
+        .feedback.show { display: block; animation: fadeIn 0.3s ease; }
+        .feedback.correct { background: rgba(74, 222, 128, 0.15); border: 1px solid var(--accent-green); color: var(--accent-green); }
+        .feedback.incorrect { background: rgba(248, 113, 113, 0.15); border: 1px solid var(--accent-red); color: var(--accent-red); }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .progress-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.5rem;
+        }
+
+        .progress-header { display: flex; justify-content: space-between; margin-bottom: 0.75rem; font-size: 0.85rem; color: var(--text-secondary); }
+        .progress-bar { height: 8px; background: var(--bg-secondary); border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; background: var(--primary); border-radius: 4px; transition: width 0.5s ease; }
+
+        .navigation { display: flex; gap: 1rem; }
+
+        .nav-btn {
+            flex: 1;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            font-weight: 500;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .nav-btn:hover:not(:disabled) { background: var(--bg-secondary); border-color: var(--primary); }
+        .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .nav-btn.next { background: var(--primary); border: none; }
+        .nav-btn.next:hover:not(:disabled) { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 5px 20px rgba(247, 98, 70, 0.3); }
+        .nav-btn.finish { background: var(--accent-green); border: none; color: #000; }
+
+        .results-screen { min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 2rem 0; }
+
+        .results-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 3rem;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+        }
+
+        .results-header { text-align: center; margin-bottom: 2rem; }
+
+        .results-logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .results-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .results-subtitle { color: var(--text-secondary); }
+
+        .score-display { text-align: center; margin-bottom: 2rem; }
+        .score-value { font-family: 'Space Mono', monospace; font-size: 4rem; font-weight: 700; color: var(--primary); }
+        .score-label { color: var(--text-secondary); font-size: 0.9rem; }
+
+        .results-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-bottom: 2rem; }
+
+        .result-section { background: var(--bg-secondary); border-radius: 16px; padding: 1.5rem; }
+        .result-section h4 { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+
+        .metrics-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+        .metric { text-align: center; }
+        .metric-value { font-family: 'Space Mono', monospace; font-size: 1.5rem; font-weight: 700; }
+        .metric-label { font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem; }
+
+        .matrix-grid { display: grid; grid-template-columns: auto repeat(2, 1fr); gap: 0.5rem; }
+        .matrix-cell { padding: 0.75rem; text-align: center; border-radius: 8px; font-size: 0.9rem; }
+        .matrix-header { font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; }
+        .matrix-label { font-size: 0.75rem; color: var(--text-secondary); display: flex; align-items: center; justify-content: flex-end; padding-right: 0.75rem; }
+
+        .tp { background: rgba(74, 222, 128, 0.2); color: var(--accent-green); }
+        .tn { background: rgba(247, 98, 70, 0.2); color: var(--primary); }
+        .fp { background: rgba(251, 191, 36, 0.2); color: var(--accent-yellow); }
+        .fn { background: rgba(248, 113, 113, 0.2); color: var(--accent-red); }
+
+        .matrix-value { font-family: 'Space Mono', monospace; font-size: 1.25rem; font-weight: 700; }
+        .matrix-sublabel { font-size: 0.65rem; opacity: 0.7; margin-top: 0.25rem; }
+
+        .submit-status {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .submit-status.success { color: var(--accent-green); }
+        .submit-status.error { color: var(--accent-red); }
+        .submit-status.pending { color: var(--accent-yellow); }
+
+        .btn-restart { background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary); width: 100%; }
+        .btn-restart:hover { border-color: var(--primary); background: rgba(247, 98, 70, 0.1); }
+
+        .spinner { width: 40px; height: 40px; border: 3px solid var(--border-color); border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .powered-by {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .powered-by a { color: var(--primary); text-decoration: none; }
+
+        @media (max-width: 768px) {
+            .container { padding: 1rem; }
+            .stats-bar { grid-template-columns: repeat(2, 1fr); }
+            .welcome-card, .results-card { padding: 2rem; }
+            .results-grid { grid-template-columns: 1fr; }
+            .input-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div id="welcomeScreen" class="screen active">
+        <div class="container">
+            <div class="welcome-screen">
+                <div class="welcome-card">
+                    <div class="welcome-logo">SKIN SCAN</div>
+                    <p class="welcome-subtitle">
+                        Test your melanoma detection skills using dermoscopic images. 
+                        This image-only evaluation mirrors AI model conditions for fair comparison.
+                    </p>
+
+                    <div class="input-group">
+                        <div class="input-row">
+                            <div>
+                                <label class="input-label">Your Name / ID</label>
+                                <input type="text" id="userName" class="input-field" placeholder="e.g., Dr. Smith" autocomplete="off">
+                            </div>
+                            <div>
+                                <label class="input-label">Experience Level</label>
+                                <select id="experienceLevel" class="input-field">
+                                    <option value="">Select...</option>
+                                    <option value="student">Medical Student</option>
+                                    <option value="resident">Resident (1-3 years)</option>
+                                    <option value="specialist">Specialist (4-10 years)</option>
+                                    <option value="expert">Expert (10+ years)</option>
+                                    <option value="dermoscopy_expert">Dermoscopy Expert</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="input-label">Institution (optional)</label>
+                            <input type="text" id="institution" class="input-field" placeholder="e.g., University Hospital" autocomplete="off">
+                        </div>
+                    </div>
+
+                    <div class="consent-box">
+                        <label>
+                            <input type="checkbox" id="consentCheck">
+                            I understand this is a research tool. My anonymized results will be 
+                            recorded for analysis. No patient metadata is shown to match AI evaluation conditions.
+                        </label>
+                    </div>
+
+                    <button id="startBtn" class="btn btn-primary" disabled>
+                        <span>Start Evaluation</span>
+                        <span>→</span>
+                    </button>
+                    
+                    <div class="powered-by">
+                        300 dermoscopic cases • Histopathology confirmed • Image-only mode
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quizScreen" class="screen">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">🔬</div>
+                <span>SKIN SCAN</span>
+            </div>
+            <div class="user-info">
+                <span id="displayUserName"></span>
+                <div class="user-badge">Case <span id="currentScore">0</span> / 300</div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="stats-bar">
+                <div class="stat-card">
+                    <div class="stat-value" id="statQuestion">1</div>
+                    <div class="stat-label">Current</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value correct" id="statCorrect">0</div>
+                    <div class="stat-label">Correct</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value incorrect" id="statIncorrect">0</div>
+                    <div class="stat-label">Incorrect</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="statAccuracy">0%</div>
+                    <div class="stat-label">Accuracy</div>
+                </div>
+            </div>
+
+            <div class="quiz-layout">
+                <div class="image-panel">
+                    <div class="image-header">
+                        <span class="image-id" id="imageId">-</span>
+                        <span class="case-badge"><span id="currentNum">1</span> / 300</span>
+                    </div>
+                    <div class="image-container" id="imageContainer">
+                        <div class="image-loading"><div class="spinner"></div></div>
+                    </div>
+                </div>
+
+                <div class="control-panel">
+                    <div class="timer-section">
+                        <span class="timer-label">⏱️ Time</span>
+                        <span class="timer-value" id="sessionTimer">00:00:00</span>
+                    </div>
+
+                    <div class="answer-section">
+                        <h3>Your Diagnosis</h3>
+                        <div class="answer-buttons">
+                            <button class="answer-btn" id="btnNotMelanoma" onclick="selectAnswer(false)">
+                                ✓ NOT Melanoma
+                            </button>
+                            <button class="answer-btn melanoma" id="btnMelanoma" onclick="selectAnswer(true)">
+                                ⚠ MELANOMA
+                            </button>
+                        </div>
+                        <div class="feedback" id="feedback"></div>
+                    </div>
+
+                    <div class="progress-section">
+                        <div class="progress-header">
+                            <span>Progress</span>
+                            <span id="progressText">0%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                        </div>
+                    </div>
+
+                    <div class="navigation">
+                        <button class="nav-btn" id="prevBtn" onclick="prevQuestion()" disabled>← Prev</button>
+                        <button class="nav-btn next" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resultsScreen" class="screen">
+        <div class="container">
+            <div class="results-screen">
+                <div class="results-card">
+                    <div class="results-header">
+                        <div class="results-logo">SKIN SCAN</div>
+                        <h1 class="results-title">Evaluation Complete</h1>
+                        <p class="results-subtitle" id="resultsSubtitle"></p>
+                    </div>
+                    
+                    <div class="score-display">
+                        <div class="score-value" id="finalScore">0%</div>
+                        <div class="score-label">Overall Accuracy</div>
+                    </div>
+
+                    <div class="results-grid">
+                        <div class="result-section">
+                            <h4>Performance</h4>
+                            <div class="metrics-grid">
+                                <div class="metric">
+                                    <div class="metric-value" style="color: var(--accent-green)" id="finalSensitivity">0%</div>
+                                    <div class="metric-label">Sensitivity</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value" style="color: var(--primary)" id="finalSpecificity">0%</div>
+                                    <div class="metric-label">Specificity</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value" style="color: var(--accent-yellow)" id="finalPPV">0%</div>
+                                    <div class="metric-label">PPV</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value" style="color: var(--text-secondary)" id="finalNPV">0%</div>
+                                    <div class="metric-label">NPV</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="result-section">
+                            <h4>Confusion Matrix</h4>
+                            <div class="matrix-grid">
+                                <div class="matrix-cell"></div>
+                                <div class="matrix-cell matrix-header">Pred: NEG</div>
+                                <div class="matrix-cell matrix-header">Pred: POS</div>
+                                <div class="matrix-cell matrix-label">Actual: NEG</div>
+                                <div class="matrix-cell tn"><div class="matrix-value" id="matrixTN">0</div><div class="matrix-sublabel">TN</div></div>
+                                <div class="matrix-cell fp"><div class="matrix-value" id="matrixFP">0</div><div class="matrix-sublabel">FP</div></div>
+                                <div class="matrix-cell matrix-label">Actual: POS</div>
+                                <div class="matrix-cell fn"><div class="matrix-value" id="matrixFN">0</div><div class="matrix-sublabel">FN</div></div>
+                                <div class="matrix-cell tp"><div class="matrix-value" id="matrixTP">0</div><div class="matrix-sublabel">TP</div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="result-section" style="margin-bottom: 1.5rem;">
+                        <h4>Summary</h4>
+                        <div class="metrics-grid">
+                            <div class="metric">
+                                <div class="metric-value" id="finalCorrect">0</div>
+                                <div class="metric-label">Correct</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value" id="finalIncorrect">0</div>
+                                <div class="metric-label">Incorrect</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value" id="finalTime">00:00</div>
+                                <div class="metric-label">Total Time</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value" id="avgTimePerCase">0s</div>
+                                <div class="metric-label">Avg/Case</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="submit-status" id="submitStatus">
+                        📤 Submitting results...
+                    </div>
+
+                    <button class="btn btn-restart" onclick="restartQuiz()">🔄 Start New Evaluation</button>
+                    
+                    <div class="powered-by">
+                        Thank you for participating in this research study.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // CONFIGURATION - Set your Google Sheet URL here
+        // ============================================
+        const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_URL_HERE';
+        // ============================================
+
+        let quizData = [];
+        let currentIndex = 0;
+        let userName = '';
+        let experienceLevel = '';
+        let institution = '';
+        let answers = [];
+        let imageBasePath = 'images/';
+        let startTime = null;
+        let timerInterval = null;
+
+        const welcomeScreen = document.getElementById('welcomeScreen');
+        const quizScreen = document.getElementById('quizScreen');
+        const resultsScreen = document.getElementById('resultsScreen');
+        const userNameInput = document.getElementById('userName');
+        const experienceSelect = document.getElementById('experienceLevel');
+        const institutionInput = document.getElementById('institution');
+        const consentCheck = document.getElementById('consentCheck');
+        const startBtn = document.getElementById('startBtn');
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            
+            const validateForm = () => {
+                startBtn.disabled = !(userNameInput.value.trim().length >= 2 && experienceSelect.value && consentCheck.checked);
+            };
+
+            userNameInput.addEventListener('input', validateForm);
+            experienceSelect.addEventListener('change', validateForm);
+            consentCheck.addEventListener('change', validateForm);
+            startBtn.addEventListener('click', startQuiz);
+            userNameInput.addEventListener('keypress', (e) => { if (e.key === 'Enter' && !startBtn.disabled) startQuiz(); });
+        });
+
+        async function loadData() {
+            try {
+                const response = await fetch('scientific_subset.json');
+                quizData = await response.json();
+                console.log(`Loaded ${quizData.length} cases`);
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert('Error loading dataset. Please ensure scientific_subset.json is in the same directory.');
+            }
+        }
+
+        function startQuiz() {
+            userName = userNameInput.value.trim();
+            experienceLevel = experienceSelect.value;
+            institution = institutionInput.value.trim();
+            answers = new Array(quizData.length).fill(null);
+            currentIndex = 0;
+            startTime = new Date();
+
+            document.getElementById('displayUserName').textContent = userName;
+            welcomeScreen.classList.remove('active');
+            quizScreen.classList.add('active');
+            timerInterval = setInterval(updateTimer, 1000);
+            loadQuestion();
+        }
+
+        function updateTimer() {
+            if (!startTime) return;
+            const elapsed = Math.floor((new Date() - startTime) / 1000);
+            const hours = Math.floor(elapsed / 3600).toString().padStart(2, '0');
+            const minutes = Math.floor((elapsed % 3600) / 60).toString().padStart(2, '0');
+            const seconds = (elapsed % 60).toString().padStart(2, '0');
+            document.getElementById('sessionTimer').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        function loadQuestion() {
+            const item = quizData[currentIndex];
+            
+            document.getElementById('imageId').textContent = item.id;
+            document.getElementById('currentNum').textContent = currentIndex + 1;
+            document.getElementById('statQuestion').textContent = currentIndex + 1;
+            document.getElementById('currentScore').textContent = currentIndex + 1;
+
+            const container = document.getElementById('imageContainer');
+            container.innerHTML = '<div class="image-loading"><div class="spinner"></div></div>';
+            
+            const img = new Image();
+            img.onload = () => { container.innerHTML = ''; container.appendChild(img); };
+            img.onerror = () => { container.innerHTML = `<div class="image-error"><p>⚠️ Cannot load image</p><p style="font-size: 0.85rem; margin-top: 0.5rem;">${item.id}.jpg</p></div>`; };
+            img.src = `${imageBasePath}${item.id}.jpg`;
+            img.alt = `Dermoscopy image ${item.id}`;
+
+            const btnMelanoma = document.getElementById('btnMelanoma');
+            const btnNotMelanoma = document.getElementById('btnNotMelanoma');
+            btnMelanoma.classList.remove('selected');
+            btnNotMelanoma.classList.remove('selected');
+            btnMelanoma.disabled = false;
+            btnNotMelanoma.disabled = false;
+
+            const feedback = document.getElementById('feedback');
+            feedback.classList.remove('show', 'correct', 'incorrect');
+
+            if (answers[currentIndex] !== null && answers[currentIndex].selected !== undefined) showPreviousAnswer();
+
+            updateNavigation();
+            updateProgress();
+            updateStats();
+        }
+
+        function selectAnswer(isMelanoma) {
+            const item = quizData[currentIndex];
+            const isCorrect = isMelanoma === item.is_melanoma;
+            
+            answers[currentIndex] = {
+                case_id: item.id,
+                selected: isMelanoma,
+                correct: isCorrect,
+                actual: item.is_melanoma,
+                category: item.category,
+                diagnosis: item.diagnosis,
+                timestamp: new Date().toISOString()
+            };
+
+            const btnMelanoma = document.getElementById('btnMelanoma');
+            const btnNotMelanoma = document.getElementById('btnNotMelanoma');
+            
+            btnMelanoma.classList.toggle('selected', isMelanoma);
+            btnNotMelanoma.classList.toggle('selected', !isMelanoma);
+            btnMelanoma.disabled = true;
+            btnNotMelanoma.disabled = true;
+
+            const feedback = document.getElementById('feedback');
+            feedback.classList.add('show');
+            feedback.classList.toggle('correct', isCorrect);
+            feedback.classList.toggle('incorrect', !isCorrect);
+            
+            if (isCorrect) {
+                feedback.textContent = '✓ Correct!';
+            } else {
+                const actualDiagnosis = item.is_melanoma ? 'MELANOMA' : 'NOT Melanoma';
+                feedback.innerHTML = `✗ Incorrect. Actual: <strong>${actualDiagnosis}</strong><br><small>${item.diagnosis}</small>`;
+            }
+
+            updateNavigation();
+            updateStats();
+        }
+
+        function showPreviousAnswer() {
+            const answer = answers[currentIndex];
+            const item = quizData[currentIndex];
+            
+            const btnMelanoma = document.getElementById('btnMelanoma');
+            const btnNotMelanoma = document.getElementById('btnNotMelanoma');
+            
+            btnMelanoma.classList.toggle('selected', answer.selected);
+            btnNotMelanoma.classList.toggle('selected', !answer.selected);
+            btnMelanoma.disabled = true;
+            btnNotMelanoma.disabled = true;
+
+            const feedback = document.getElementById('feedback');
+            feedback.classList.add('show');
+            feedback.classList.toggle('correct', answer.correct);
+            feedback.classList.toggle('incorrect', !answer.correct);
+            
+            if (answer.correct) {
+                feedback.textContent = '✓ Correct!';
+            } else {
+                const actualDiagnosis = item.is_melanoma ? 'MELANOMA' : 'NOT Melanoma';
+                feedback.innerHTML = `✗ Incorrect. Actual: <strong>${actualDiagnosis}</strong><br><small>${item.diagnosis}</small>`;
+            }
+        }
+
+        function nextQuestion() {
+            if (currentIndex < quizData.length - 1) {
+                currentIndex++;
+                loadQuestion();
+            } else if (answers.every(a => a !== null && a.selected !== undefined)) {
+                showResults();
+            }
+        }
+
+        function prevQuestion() { if (currentIndex > 0) { currentIndex--; loadQuestion(); } }
+
+        function updateNavigation() {
+            document.getElementById('prevBtn').disabled = currentIndex === 0;
+            
+            const hasAnswer = answers[currentIndex] !== null && answers[currentIndex].selected !== undefined;
+            const isLast = currentIndex === quizData.length - 1;
+            const allAnswered = answers.every(a => a !== null && a.selected !== undefined);
+
+            const nextBtn = document.getElementById('nextBtn');
+            nextBtn.disabled = !hasAnswer;
+            
+            if (isLast && allAnswered) {
+                nextBtn.textContent = '🏁 Finish';
+                nextBtn.classList.remove('next');
+                nextBtn.classList.add('finish');
+            } else {
+                nextBtn.innerHTML = 'Next →';
+                nextBtn.classList.add('next');
+                nextBtn.classList.remove('finish');
+            }
+        }
+
+        function updateProgress() {
+            const answered = answers.filter(a => a !== null && a.selected !== undefined).length;
+            const percent = Math.round((answered / quizData.length) * 100);
+            document.getElementById('progressFill').style.width = `${percent}%`;
+            document.getElementById('progressText').textContent = `${percent}%`;
+        }
+
+        function updateStats() {
+            const answered = answers.filter(a => a !== null && a.selected !== undefined);
+            const correct = answered.filter(a => a.correct).length;
+            const incorrect = answered.length - correct;
+            const accuracy = answered.length > 0 ? Math.round((correct / answered.length) * 100) : 0;
+
+            document.getElementById('statCorrect').textContent = correct;
+            document.getElementById('statIncorrect').textContent = incorrect;
+            document.getElementById('statAccuracy').textContent = `${accuracy}%`;
+        }
+
+        function showResults() {
+            clearInterval(timerInterval);
+            const endTime = new Date();
+            const totalSeconds = Math.floor((endTime - startTime) / 1000);
+
+            quizScreen.classList.remove('active');
+            resultsScreen.classList.add('active');
+
+            const validAnswers = answers.filter(a => a && a.selected !== undefined);
+            const correct = validAnswers.filter(a => a.correct).length;
+            const incorrect = validAnswers.length - correct;
+            const percentage = Math.round((correct / validAnswers.length) * 100);
+
+            let tp = 0, tn = 0, fp = 0, fn = 0;
+            validAnswers.forEach(a => {
+                if (a.actual && a.selected) tp++;
+                else if (!a.actual && !a.selected) tn++;
+                else if (!a.actual && a.selected) fp++;
+                else if (a.actual && !a.selected) fn++;
+            });
+
+            const sensitivity = tp + fn > 0 ? Math.round((tp / (tp + fn)) * 100) : 0;
+            const specificity = tn + fp > 0 ? Math.round((tn / (tn + fp)) * 100) : 0;
+            const ppv = tp + fp > 0 ? Math.round((tp / (tp + fp)) * 100) : 0;
+            const npv = tn + fn > 0 ? Math.round((tn / (tn + fn)) * 100) : 0;
+
+            document.getElementById('resultsSubtitle').textContent = `${userName} • ${experienceLevel.replace('_', ' ')}`;
+            document.getElementById('finalScore').textContent = `${percentage}%`;
+            document.getElementById('finalCorrect').textContent = correct;
+            document.getElementById('finalIncorrect').textContent = incorrect;
+
+            document.getElementById('matrixTP').textContent = tp;
+            document.getElementById('matrixTN').textContent = tn;
+            document.getElementById('matrixFP').textContent = fp;
+            document.getElementById('matrixFN').textContent = fn;
+
+            document.getElementById('finalSensitivity').textContent = `${sensitivity}%`;
+            document.getElementById('finalSpecificity').textContent = `${specificity}%`;
+            document.getElementById('finalPPV').textContent = `${ppv}%`;
+            document.getElementById('finalNPV').textContent = `${npv}%`;
+
+            const hours = Math.floor(totalSeconds / 3600);
+            const minutes = Math.floor((totalSeconds % 3600) / 60);
+            const seconds = totalSeconds % 60;
+            document.getElementById('finalTime').textContent = hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m ${seconds}s`;
+            document.getElementById('avgTimePerCase').textContent = `${Math.round(totalSeconds / validAnswers.length)}s`;
+
+            // Submit results
+            submitResults({
+                participant: userName,
+                experience: experienceLevel,
+                institution: institution,
+                date: new Date().toISOString(),
+                total_time_seconds: totalSeconds,
+                accuracy: percentage,
+                sensitivity: sensitivity,
+                specificity: specificity,
+                ppv: ppv,
+                npv: npv,
+                tp: tp,
+                tn: tn,
+                fp: fp,
+                fn: fn,
+                correct: correct,
+                incorrect: incorrect,
+                total_cases: validAnswers.length
+            });
+        }
+
+        async function submitResults(data) {
+            const statusEl = document.getElementById('submitStatus');
+            statusEl.className = 'submit-status pending';
+            statusEl.textContent = '📤 Submitting results...';
+
+            if (GOOGLE_SCRIPT_URL === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
+                statusEl.className = 'submit-status error';
+                statusEl.innerHTML = '⚠️ Results not submitted (no server configured)<br><small>Contact administrator to enable result collection</small>';
+                return;
+            }
+
+            try {
+                const response = await fetch(GOOGLE_SCRIPT_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                
+                statusEl.className = 'submit-status success';
+                statusEl.textContent = '✓ Results submitted successfully!';
+            } catch (error) {
+                console.error('Submit error:', error);
+                statusEl.className = 'submit-status error';
+                statusEl.textContent = '⚠️ Could not submit results. Please screenshot this page.';
+            }
+        }
+
+        function restartQuiz() {
+            resultsScreen.classList.remove('active');
+            welcomeScreen.classList.add('active');
+            userNameInput.value = '';
+            experienceSelect.value = '';
+            institutionInput.value = '';
+            consentCheck.checked = false;
+            startBtn.disabled = true;
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (!quizScreen.classList.contains('active')) return;
+            switch(e.key) {
+                case 'ArrowLeft': if (!document.getElementById('prevBtn').disabled) prevQuestion(); break;
+                case 'ArrowRight': if (!document.getElementById('nextBtn').disabled) nextQuestion(); break;
+                case '1': case 'n': case 'N': if (!document.getElementById('btnNotMelanoma').disabled) selectAnswer(false); break;
+                case '2': case 'm': case 'M': if (!document.getElementById('btnMelanoma').disabled) selectAnswer(true); break;
+            }
+        });
+    </script>
+</body>
+</html>
