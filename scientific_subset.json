@@ -1,27 +1,15 @@
 [
   {
-    "id": "ISIC_3386852",
+    "id": "ISIC_3698441",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_7958109",
+    "id": "ISIC_8098771",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_1424951",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_2923050",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
   },
   {
     "id": "ISIC_1264034",
@@ -30,832 +18,28 @@
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_8186630",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_6174823",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_3945933",
-    "is_melanoma": false,
-    "diagnosis": "Dermatofibroma",
-    "category": "mimicker_dermatofibroma"
-  },
-  {
-    "id": "ISIC_0798109",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_7188142",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_0949430",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_9810739",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_3318576",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_7045012",
+    "id": "ISIC_3248418",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_6583732",
+    "id": "ISIC_1206880",
     "is_melanoma": false,
     "diagnosis": "Nevus",
     "category": "mimicker_nevus"
   },
   {
-    "id": "ISIC_9845346",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_9693907",
+    "id": "ISIC_8345526",
     "is_melanoma": false,
     "diagnosis": "Nevus",
     "category": "mimicker_nevus"
   },
   {
-    "id": "ISIC_1435734",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_5129541",
+    "id": "ISIC_6640040",
     "is_melanoma": false,
     "diagnosis": "Nevus",
     "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_5456265",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_8111688",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_0149062",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_7170025",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_8244439",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma metastasis",
-    "category": "melanoma_metastasis"
-  },
-  {
-    "id": "ISIC_4529113",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_4303207",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_8118009",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_6600474",
-    "is_melanoma": false,
-    "diagnosis": "Solar or actinic keratosis",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_2892335",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_0391153",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_9317486",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_4040199",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_6077125",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_1377073",
-    "is_melanoma": false,
-    "diagnosis": "Infundibular or epidermal cyst",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_7447177",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_5696393",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_8257972",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_3418096",
-    "is_melanoma": false,
-    "diagnosis": "Dermatofibroma",
-    "category": "mimicker_dermatofibroma"
-  },
-  {
-    "id": "ISIC_3667052",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_1715773",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_8261347",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_8002362",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_9183026",
-    "is_melanoma": false,
-    "diagnosis": "Solar or actinic keratosis",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_2415211",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_8906358",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_3210975",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_8635734",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_5138441",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_6677597",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_1909868",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_0402893",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_8945633",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_1037712",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_7621482",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_3623141",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_4444976",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_4993836",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_3368269",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_9355799",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_6046943",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_7475014",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_8010616",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_1653953",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_8350851",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_7267324",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_6958882",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_7789436",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_4299958",
-    "is_melanoma": false,
-    "diagnosis": "Solar or actinic keratosis",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_2181342",
-    "is_melanoma": false,
-    "diagnosis": "Pyogenic granuloma",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_6625361",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_1597370",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_4267147",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_8966831",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_9018538",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_7243320",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_0543368",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_4311112",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_3164080",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_9174580",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_5080331",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_8877039",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_4945500",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_5093839",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_7136010",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_4868603",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_6738908",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_1224887",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_9561756",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_9940495",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_2205187",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_5629148",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_8893011",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_6698671",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_2891861",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_1832787",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_4430642",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_2949444",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_7982662",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_2900527",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_5157495",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_3057675",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_6874595",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_6790517",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_6291927",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_2513521",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_4742339",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_1327102",
-    "is_melanoma": false,
-    "diagnosis": "Angiokeratoma",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_0853298",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_2343149",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_2085484",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_2886495",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_4098601",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_7188767",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_6167082",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_5018607",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_9250861",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma metastasis",
-    "category": "melanoma_metastasis"
-  },
-  {
-    "id": "ISIC_6573003",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_3360186",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_7044118",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_8533186",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_4025658",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_0553265",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_3982759",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_2397388",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_9276896",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_1157338",
-    "is_melanoma": false,
-    "diagnosis": "Solar or actinic keratosis",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_0443245",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_2106983",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_2525497",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_5665189",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_7138580",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_0303886",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_9818689",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_2753382",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma metastasis",
-    "category": "melanoma_metastasis"
-  },
-  {
-    "id": "ISIC_8322623",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_8165089",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_8063764",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_3045477",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_5358212",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_1753599",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_8349783",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_2459161",
-    "is_melanoma": false,
-    "diagnosis": "Solar or actinic keratosis",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_1066863",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
   },
   {
     "id": "ISIC_4218751",
@@ -864,103 +48,133 @@
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_1649393",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_4203842",
+    "id": "ISIC_0934708",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_8124386",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_0084958",
+    "id": "ISIC_7718206",
     "is_melanoma": true,
-    "diagnosis": "Melanoma metastasis",
-    "category": "melanoma_metastasis"
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_7885691",
-    "is_melanoma": false,
-    "diagnosis": "Solar or actinic keratosis",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_5261867",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_9488743",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_2453345",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_7334939",
+    "id": "ISIC_1009291",
     "is_melanoma": true,
     "diagnosis": "Melanoma in situ",
     "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_2893311",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_6543284",
-    "is_melanoma": false,
-    "diagnosis": "Collision - At least one malignant proliferation",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_5836006",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_1126401",
+    "id": "ISIC_9820266",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_0192391",
+    "id": "ISIC_3642584",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_4493203",
+    "id": "ISIC_7472087",
     "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_2134793",
+    "id": "ISIC_7045012",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_9934612",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_9597858",
     "is_melanoma": false,
     "diagnosis": "Basal cell carcinoma",
     "category": "other_bcc"
   },
   {
-    "id": "ISIC_8740405",
+    "id": "ISIC_1343499",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_5372934",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_5767870",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_8281265",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_0282178",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_7705117",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_8366447",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_4807554",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_4412646",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_8292493",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_7077229",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma"
+  },
+  {
+    "id": "ISIC_3199091",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_0410802",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
@@ -972,367 +186,199 @@
     "category": "melanoma_invasive"
   },
   {
+    "id": "ISIC_4235575",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_6635963",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1221689",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_7886221",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_6246107",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_8385396",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_3706698",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_3959129",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_1606234",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_8407534",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_8137954",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_9014235",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_2752768",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_8860235",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_3539795",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_8667960",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_5398617",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_7143359",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_1818377",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_0426131",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_8870441",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_1121645",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_7929528",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_3837734",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4716627",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
     "id": "ISIC_5239106",
     "is_melanoma": false,
     "diagnosis": "Nevus",
     "category": "mimicker_nevus"
   },
   {
-    "id": "ISIC_9115886",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_3102873",
+    "id": "ISIC_3689085",
     "is_melanoma": false,
     "diagnosis": "Basal cell carcinoma",
     "category": "other_bcc"
   },
   {
-    "id": "ISIC_6508737",
+    "id": "ISIC_9380419",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_6581608",
+    "is_melanoma": false,
+    "diagnosis": "Infundibular or epidermal cyst",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_7922830",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_4949237",
+    "id": "ISIC_8158325",
     "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_3428486",
-    "is_melanoma": false,
-    "diagnosis": "Solar or actinic keratosis",
+    "diagnosis": "Hemangioma",
     "category": "other_misc"
   },
   {
-    "id": "ISIC_8367579",
+    "id": "ISIC_1556154",
     "is_melanoma": false,
     "diagnosis": "Keratoacanthoma",
     "category": "other_keratoacanthoma"
   },
   {
-    "id": "ISIC_5151650",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_1492834",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_1075770",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_9871721",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_0938645",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_4120065",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_4256719",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_5933489",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_6755281",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_2959395",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma metastasis",
-    "category": "melanoma_metastasis"
-  },
-  {
-    "id": "ISIC_6550385",
-    "is_melanoma": false,
-    "diagnosis": "Angiokeratoma",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_5807024",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_3456765",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_4892815",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_5960820",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_4426174",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_4520562",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_8525569",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_1389612",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_2252587",
-    "is_melanoma": false,
-    "diagnosis": "Inflammatory or infectious diseases",
-    "category": "other_misc"
-  },
-  {
-    "id": "ISIC_1403022",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_3905888",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_5228122",
-    "is_melanoma": false,
-    "diagnosis": "Dermatofibroma",
-    "category": "mimicker_dermatofibroma"
-  },
-  {
-    "id": "ISIC_9290704",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_4140786",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_5253746",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_6428132",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_6558065",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_8810193",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_4638443",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_1888829",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_9562167",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_9227283",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_3317643",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_2668215",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_0490330",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_8133362",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_0583712",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_6372109",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_6294166",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_2837403",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_5512440",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_1915189",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_9025095",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_8771667",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_5212488",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_2313224",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_7964186",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_3906512",
-    "is_melanoma": false,
-    "diagnosis": "Solar lentigo",
-    "category": "mimicker_solar_lentigo"
-  },
-  {
-    "id": "ISIC_7675736",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_2120680",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_5913482",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_4370676",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_1598799",
+    "id": "ISIC_8532508",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
@@ -1344,244 +390,874 @@
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_5068413",
+    "id": "ISIC_7374556",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_7984223",
     "is_melanoma": true,
     "diagnosis": "Melanoma in situ",
     "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_0745250",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_5230169",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_9046790",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_5678929",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_2284196",
-    "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
-  },
-  {
-    "id": "ISIC_5376495",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_1860202",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma in situ",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_2926621",
+    "id": "ISIC_4347789",
     "is_melanoma": false,
     "diagnosis": "Nevus",
     "category": "mimicker_nevus"
   },
   {
-    "id": "ISIC_3034620",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_1580971",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_3020708",
+    "id": "ISIC_2312468",
     "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
   },
   {
-    "id": "ISIC_6803790",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_5176734",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_3830454",
+    "id": "ISIC_7134919",
     "is_melanoma": false,
-    "diagnosis": "Inflammatory or infectious diseases",
+    "diagnosis": "Hemangioma",
     "category": "other_misc"
   },
   {
-    "id": "ISIC_9807754",
+    "id": "ISIC_1464557",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_4325605",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_8874166",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_8906358",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_7805699",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_0528832",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_3061267",
+    "id": "ISIC_4427207",
     "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
   },
   {
-    "id": "ISIC_0991616",
+    "id": "ISIC_3539413",
     "is_melanoma": false,
-    "diagnosis": "Seborrheic keratosis",
-    "category": "mimicker_seb_ker"
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
   },
   {
-    "id": "ISIC_7096753",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_2016658",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_7035620",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_0807573",
+    "id": "ISIC_9000883",
     "is_melanoma": false,
     "diagnosis": "Solar or actinic keratosis",
     "category": "other_misc"
   },
   {
-    "id": "ISIC_2427847",
+    "id": "ISIC_5344273",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_8778674",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_5216960",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_5358212",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_7638974",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_5022731",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_7189526",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_1190372",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_9506376",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_9961570",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_2374466",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_5892763",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_8825637",
+    "is_melanoma": false,
+    "diagnosis": "Porokeratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_7150655",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_3173642",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_1675235",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4700918",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_3317643",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_8126703",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_3210975",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_5442968",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_3455310",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_7343701",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_7245189",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_6714325",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_2879057",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_5010590",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1215920",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_0951274",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_2530103",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_1972798",
     "is_melanoma": false,
     "diagnosis": "Dermatofibroma",
     "category": "mimicker_dermatofibroma"
   },
   {
-    "id": "ISIC_6365981",
+    "id": "ISIC_3103579",
     "is_melanoma": true,
     "diagnosis": "Melanoma in situ",
     "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_1982635",
+    "id": "ISIC_4256719",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_7801345",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_6638374",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_5264230",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_9180125",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_7020196",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_3667052",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_7454975",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma"
+  },
+  {
+    "id": "ISIC_8642522",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_4232474",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_0593055",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_4228893",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_2713587",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_9186111",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1166088",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_0450792",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1975493",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_2926418",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_5893482",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_7645755",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_0403826",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_9862532",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_3033732",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_8437510",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_8344146",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_8244439",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis"
+  },
+  {
+    "id": "ISIC_3431903",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_5728378",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_1616470",
     "is_melanoma": false,
     "diagnosis": "Squamous cell carcinoma in situ",
     "category": "other_scc"
   },
   {
-    "id": "ISIC_5315833",
+    "id": "ISIC_8457619",
     "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
   },
   {
-    "id": "ISIC_0573471",
+    "id": "ISIC_2846167",
     "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
   },
   {
-    "id": "ISIC_0742972",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_5688654",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_8816308",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_4793606",
+    "id": "ISIC_1121888",
     "is_melanoma": true,
     "diagnosis": "Melanoma in situ",
     "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_5866836",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_4932799",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_1503289",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_6222224",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_2122841",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_7695480",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_0931470",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_4320592",
+    "id": "ISIC_4312494",
     "is_melanoma": true,
     "diagnosis": "Melanoma in situ",
     "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_5612498",
+    "id": "ISIC_1538266",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4306480",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_8293683",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_0204717",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_8071918",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_5714835",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_9399586",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_2799124",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_7870559",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_3203799",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_6910029",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_6294166",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_1143783",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_0289550",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4742379",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_2298923",
     "is_melanoma": false,
     "diagnosis": "Nevus",
     "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_8697607",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_9384345",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_5566852",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_8977962",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_3526708",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_6908533",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_5224246",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_3721391",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_8558850",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_5412380",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1365576",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_1136259",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_9945680",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_1006756",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_4296407",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_4315425",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_6428004",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_7214986",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_3356573",
+    "is_melanoma": false,
+    "diagnosis": "Hemangioma",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_6930203",
+    "is_melanoma": false,
+    "diagnosis": "Hemangioma",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_6289650",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_3751292",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_5092532",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_6545015",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_4648933",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4792565",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_8620236",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1225678",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_2459161",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_1255858",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_4028370",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_5541499",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_9277601",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_4302597",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_5706380",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_6877985",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_6993040",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_8704127",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4842466",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_1818006",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_9561756",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_9157592",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma"
+  },
+  {
+    "id": "ISIC_3626191",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_2962014",
+    "is_melanoma": false,
+    "diagnosis": "Dermatofibroma",
+    "category": "mimicker_dermatofibroma"
+  },
+  {
+    "id": "ISIC_0512725",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_8294897",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_0734414",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_6857782",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_6715416",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_3073821",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
   },
   {
     "id": "ISIC_5831158",
@@ -1590,213 +1266,537 @@
     "category": "mimicker_nevus"
   },
   {
-    "id": "ISIC_1721507",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
+    "id": "ISIC_1828351",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_6290373",
+    "id": "ISIC_8923256",
     "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
   },
   {
-    "id": "ISIC_9488866",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_9725159",
+    "id": "ISIC_8698547",
     "is_melanoma": false,
     "diagnosis": "Seborrheic keratosis",
     "category": "mimicker_seb_ker"
   },
   {
-    "id": "ISIC_5390171",
+    "id": "ISIC_5469285",
     "is_melanoma": false,
-    "diagnosis": "Dermatofibroma",
-    "category": "mimicker_dermatofibroma"
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
   },
   {
-    "id": "ISIC_3486312",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma in situ",
-    "category": "melanoma_in_situ"
-  },
-  {
-    "id": "ISIC_2611469",
+    "id": "ISIC_2513521",
     "is_melanoma": false,
     "diagnosis": "Squamous cell carcinoma, Invasive",
     "category": "other_scc"
   },
   {
-    "id": "ISIC_9187182",
+    "id": "ISIC_8112188",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4082328",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis"
+  },
+  {
+    "id": "ISIC_7974271",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1978418",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_6347753",
     "is_melanoma": false,
     "diagnosis": "Nevus",
     "category": "mimicker_nevus"
   },
   {
-    "id": "ISIC_5476166",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_9599992",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_2683683",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_0217198",
+    "id": "ISIC_4629088",
     "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
   },
   {
-    "id": "ISIC_4513123",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_7268085",
+    "id": "ISIC_1465068",
     "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
   },
   {
-    "id": "ISIC_3601357",
+    "id": "ISIC_8025582",
     "is_melanoma": false,
     "diagnosis": "Squamous cell carcinoma in situ",
     "category": "other_scc"
   },
   {
-    "id": "ISIC_6810372",
-    "is_melanoma": false,
-    "diagnosis": "Lichen planus like keratosis",
-    "category": "mimicker_lpk"
-  },
-  {
-    "id": "ISIC_9718756",
+    "id": "ISIC_5311382",
     "is_melanoma": false,
     "diagnosis": "Basal cell carcinoma",
     "category": "other_bcc"
   },
   {
-    "id": "ISIC_3242637",
-    "is_melanoma": false,
-    "diagnosis": "Keratoacanthoma",
-    "category": "other_keratoacanthoma"
-  },
-  {
-    "id": "ISIC_0583409",
+    "id": "ISIC_0880783",
     "is_melanoma": false,
     "diagnosis": "Basal cell carcinoma",
     "category": "other_bcc"
   },
   {
-    "id": "ISIC_8453550",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_3932303",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_3520227",
-    "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
-  },
-  {
-    "id": "ISIC_1706772",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_0584164",
-    "is_melanoma": false,
-    "diagnosis": "Basal cell carcinoma",
-    "category": "other_bcc"
-  },
-  {
-    "id": "ISIC_0686429",
+    "id": "ISIC_5566320",
     "is_melanoma": true,
     "diagnosis": "Melanoma in situ",
     "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_6888436",
+    "id": "ISIC_8946719",
     "is_melanoma": false,
     "diagnosis": "Squamous cell carcinoma, Invasive",
     "category": "other_scc"
   },
   {
-    "id": "ISIC_1624532",
+    "id": "ISIC_6048752",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_9239381",
+    "id": "ISIC_2473856",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_5744011",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_1817508",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_3269995",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_3396860",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_1454751",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_3372353",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_7280473",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_5461210",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_3986103",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_9744084",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_3507614",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_1090300",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_7510898",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_1958859",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_7450231",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_0946795",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_2754845",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_6780966",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_1942928",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_5728005",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_0642767",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_0855384",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_6195452",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_8746170",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_5020961",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_6335386",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_5126567",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1416314",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_6655070",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_2178421",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_7978498",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis"
+  },
+  {
+    "id": "ISIC_0962054",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_4607582",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_5835958",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_6293492",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_1614480",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_6689453",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_9474028",
     "is_melanoma": false,
     "diagnosis": "Solar lentigo",
     "category": "mimicker_solar_lentigo"
   },
   {
-    "id": "ISIC_1850255",
+    "id": "ISIC_9712861",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_5761443",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_2361193",
-    "is_melanoma": false,
-    "diagnosis": "Nevus",
-    "category": "mimicker_nevus"
-  },
-  {
-    "id": "ISIC_3642584",
+    "id": "ISIC_3807230",
     "is_melanoma": true,
-    "diagnosis": "Melanoma Invasive",
-    "category": "melanoma_invasive"
+    "diagnosis": "Melanoma in situ",
+    "category": "melanoma_in_situ"
   },
   {
-    "id": "ISIC_4103339",
-    "is_melanoma": false,
-    "diagnosis": "Squamous cell carcinoma, Invasive",
-    "category": "other_scc"
-  },
-  {
-    "id": "ISIC_4469657",
+    "id": "ISIC_2927179",
     "is_melanoma": false,
     "diagnosis": "Keratoacanthoma",
     "category": "other_keratoacanthoma"
   },
   {
-    "id": "ISIC_0583040",
+    "id": "ISIC_9026951",
+    "is_melanoma": false,
+    "diagnosis": "Keratoacanthoma",
+    "category": "other_keratoacanthoma"
+  },
+  {
+    "id": "ISIC_5785135",
     "is_melanoma": true,
     "diagnosis": "Melanoma Invasive",
     "category": "melanoma_invasive"
   },
   {
-    "id": "ISIC_1916169",
+    "id": "ISIC_9593683",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_2996843",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_0330089",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4773028",
+    "is_melanoma": false,
+    "diagnosis": "Solar or actinic keratosis",
+    "category": "other_misc"
+  },
+  {
+    "id": "ISIC_7839162",
     "is_melanoma": true,
     "diagnosis": "Melanoma in situ",
     "category": "melanoma_in_situ"
+  },
+  {
+    "id": "ISIC_3825679",
+    "is_melanoma": false,
+    "diagnosis": "Seborrheic keratosis",
+    "category": "mimicker_seb_ker"
+  },
+  {
+    "id": "ISIC_7302180",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_9685756",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_3587674",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_0723926",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_8616033",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis"
+  },
+  {
+    "id": "ISIC_4210097",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_3822722",
+    "is_melanoma": false,
+    "diagnosis": "Solar lentigo",
+    "category": "mimicker_solar_lentigo"
+  },
+  {
+    "id": "ISIC_1558061",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma in situ",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_0811123",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_0828276",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_7358297",
+    "is_melanoma": false,
+    "diagnosis": "Nevus",
+    "category": "mimicker_nevus"
+  },
+  {
+    "id": "ISIC_1517003",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_9159202",
+    "is_melanoma": false,
+    "diagnosis": "Squamous cell carcinoma, Invasive",
+    "category": "other_scc"
+  },
+  {
+    "id": "ISIC_1797900",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_2550058",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_3869200",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4281031",
+    "is_melanoma": false,
+    "diagnosis": "Basal cell carcinoma",
+    "category": "other_bcc"
+  },
+  {
+    "id": "ISIC_4742339",
+    "is_melanoma": false,
+    "diagnosis": "Lichen planus like keratosis",
+    "category": "mimicker_lpk"
+  },
+  {
+    "id": "ISIC_0669396",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma Invasive",
+    "category": "melanoma_invasive"
+  },
+  {
+    "id": "ISIC_1887299",
+    "is_melanoma": true,
+    "diagnosis": "Melanoma metastasis",
+    "category": "melanoma_metastasis"
   }
 ]
